@@ -7,16 +7,43 @@
 </head>
 <body>
     <script>
-        console.log("Hello World")
-        let Rock = 3;
-        let Paper = 2;
-        let Scissors = 1;
-     function getComputerChoice (Rock,Paper,Scissors) {
+    function getComputerChoice () {
+     if (Math.floor(Math.random() * 3)+1 ==3) return "rock";
+     else if (Math.floor(Math.random() * 3)+1 ==2) return "paper";
+     else  return "scissors";
+     
+     
+
+     
+    }
+    
+    console.log(getComputerChoice ())
+
+       // let Rock = 3;
+       // let Paper = 2;
+        //let Scissors = 1;
+     //function getComputerChoice (Rock,Paper,Scissors) {
         
-        return Math.floor(Math.random() * 3)+1;
+      //  return Math.floor(Math.random() * 3)+1;
         
-     }
-     console.log(getComputerChoice(Rock, Paper, Scissors))
+     //}
+     //console.log(getComputerChoice(Rock, Paper, Scissors))
+     //function getHumanChoice (Rock,Paper,Scissors) {
+     //return prompt("Choose a number")
+     
+    //}
+    //console.log(getHumanChoice(Rock, Paper, Scissors))
+
+    //let humanScore = 0;
+    //let computerScore = 0;
+    //function playRound (humanChoice, computerChoice) {
+     // if (humanChoice === Rock && computerChoice === Rock) {
+      //  text = "Equal";
+      //} 
+    //}
+    //const humanSelection = getHumanChoice();
+    //const computerSelection = getComputerChoice();
+    //playRound(humanSelection, computerSelection);
 
 
     </script>
